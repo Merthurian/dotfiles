@@ -19,6 +19,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'gregsexton/MatchTag'
+Plugin 'davidhalter/jedi-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -55,3 +56,6 @@ nnoremap tl :tabnext<CR>
 
 set shiftwidth=2
 set tabstop=2
+
+set backspace=indent,eol,start
+syntax on
